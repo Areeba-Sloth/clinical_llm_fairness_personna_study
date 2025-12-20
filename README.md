@@ -2,13 +2,13 @@ Towards Equitable Medical AI: Testing the Generalizability of LLMs Across Divers
 
 Research Project | Lahore University of Management Sciences (LUMS)
 
-📌 Overview
+ Overview
 
 This research examines the fairness and generalizability of Large Language Models (LLMs) in clinical decision-making contexts. Specifically, we investigate whether diagnostic performance varies when models are prompted to assume clinician personas from different training backgrounds and resource settings, including low- and middle-income countries (LMICs) versus high-resource environments.
 
 By systematically varying persona attributes while holding clinical content constant, this study evaluates whether identity-based prompts meaningfully influence model reasoning, knowledge application, or diagnostic quality.
 
-🎯 Research Questions
+Research Questions
 
 Does diagnostic performance differ across simulated clinician personas?
 
@@ -18,7 +18,7 @@ Are persona effects stable across multiple independent model runs?
 
 Which components of clinical reasoning are most sensitive to persona variation?
 
-🧪 Methodology
+ Methodology
 Experimental Design
 
 Models Evaluated:
@@ -68,7 +68,7 @@ Total observations: 5,070
 
 False Discovery Rate (FDR) correction applied for multiple comparisons
 
-📊 Key Findings
+Key Findings
 Main Results
 
 Training background neutrality:
@@ -114,7 +114,7 @@ Identity-based persona labels alone do not meaningfully alter diagnostic knowled
 └── README.md
     └── Project overview, methodology, and findings
 
-📄 Notes on Reproducibility
+Notes on Reproducibility
 
 All model outputs and evaluations are included to ensure transparency.
 
@@ -122,6 +122,6 @@ Large pretrained models were accessed via external APIs or checkpoints and are n
 
 Random seeds and multiple runs were used where applicable to assess robustness.
 
-📬 Contact
+Contact
 
 For questions regarding the methodology or results, please contact the project authors via LUMS.
