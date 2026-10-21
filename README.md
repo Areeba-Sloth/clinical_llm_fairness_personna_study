@@ -4,7 +4,7 @@
 
 ---
 
-## 📌 Overview
+## Overview
 
 This research examines the **fairness and generalizability of Large Language Models (LLMs)** in clinical decision-making. We investigate whether diagnostic performance varies when models are prompted to assume **clinician personas from different training backgrounds and resource settings**, including **low- and middle-income countries (LMICs)** versus **high-resource environments**.
 
@@ -12,7 +12,7 @@ By systematically varying persona attributes while keeping clinical content cons
 
 ---
 
-## ❓ Research Questions
+## Research Questions
 
 1. Does diagnostic performance differ across simulated clinician personas?
 2. Which persona dimensions (e.g., resources, reasoning style) most strongly influence outcomes?
@@ -21,7 +21,7 @@ By systematically varying persona attributes while keeping clinical content cons
 
 ---
 
-## 🧪 Methodology
+## Methodology
 
 ### Experimental Design
 
@@ -56,7 +56,7 @@ Responses were graded using a rubric designed by licensed physicians familiar wi
 
 ---
 
-## 📊 Key Findings
+## Key Findings
 
 * **Training background neutrality:** No significant performance differences between US-trained, Pakistani-trained, or Neutral personas
 * **Operational constraints matter:** Limited diagnostic resources significantly reduced diagnostic quality, measured against a physician rubric that already reflects practice in resource-limited settings
@@ -66,7 +66,7 @@ Responses were graded using a rubric designed by licensed physicians familiar wi
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 .
@@ -80,7 +80,7 @@ Responses were graded using a rubric designed by licensed physicians familiar wi
 
 ---
 
-## 📝 Notes on Reproducibility
+## Notes on Reproducibility
 
 * All model outputs and evaluations are included for transparency
 * Large pretrained models were accessed via external APIs or checkpoints and are **not redistributed**
@@ -88,7 +88,7 @@ Responses were graded using a rubric designed by licensed physicians familiar wi
 
 ---
 
-## 📬 Contact
+## Contact
 
 For questions regarding methodology or results, please contact the project authors via **LUMS**.
 
