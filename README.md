@@ -37,13 +37,13 @@ By systematically varying persona attributes while keeping clinical content cons
 
 ### Evaluation Protocol
 
-Responses were graded using a physician-designed rubric across five components:
+Responses were graded using a rubric designed by licensed physicians familiar with clinical practice in resource-limited settings, across five components (maximum 23 points):
 
-1. Diagnostic accuracy
-2. Clinical reasoning
-3. Differential diagnosis quality
-4. Contextual awareness
-5. Additional Steps
+1. Diagnosis list (0–3)
+2. Supporting evidence (0–6)
+3. Opposing evidence (0–6)
+4. Final diagnosis (0–2)
+5. Additional steps (0–6)
 
 * Evaluation was performed using **LLaMA-3.3-70B as an automated judge**.
 * Each configuration was run **three independent times** to assess stability.
@@ -59,7 +59,7 @@ Responses were graded using a physician-designed rubric across five components:
 ## 📊 Key Findings
 
 * **Training background neutrality:** No significant performance differences between US-trained, Pakistani-trained, or Neutral personas
-* **Operational constraints matter:** Limited diagnostic resources significantly reduced performance
+* **Operational constraints matter:** Limited diagnostic resources significantly reduced diagnostic quality, measured against a physician rubric that already reflects practice in resource-limited settings
 * **Reasoning style effects:** Step-by-step reasoning consistently improved diagnostic quality
 * **Model-specific behavior:** Different architectures showed varying sensitivity and stability
 * **The “Hollow Persona” Phenomenon:** Identity labels alone do not meaningfully alter diagnostic knowledge or reasoning strategies in current LLMs
